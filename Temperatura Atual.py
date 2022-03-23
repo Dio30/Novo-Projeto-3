@@ -13,5 +13,5 @@ def pegar_temperatura():
     temperatura = requisicao_dic['main']['temp'] - 273.15
 
     texto = f'''
-    Rio de Janeiro: {temperatura}'''
+    Rio de Janeiro: {descricao, temperatura}'''
     texto_previsoes["text"] = texto

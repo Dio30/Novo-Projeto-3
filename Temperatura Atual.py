@@ -1,6 +1,7 @@
 import requests
 from tkinter import *
 
+#para conseguir a API_Key voce tem que se inscrever no site https://api.openweathermap.org
 API_KEY = "Coloque sua api key aqui"
 cidade = "rio de janeiro"
 link = f"https://api.openweathermap.org/data/2.5/weather?q={'rio de janeiro'}&appid={'api_key'}&lang=pt_br"
